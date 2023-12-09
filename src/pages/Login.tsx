@@ -14,12 +14,7 @@ function Login() {
     navigate('/search');
   };
   /*
-  Requisito 1:
-  Explicação: O codigo está funcionando mas tive que adicionar async e await pois createUser é uma função assincrona
-  Além disso, não tenho certeza do porque devo ter que passar o valor false para loading em setLoading(false) para passar no teste. (Perguntar na monitoria)
-  (Será exibida alguma outra coisa e devo sumir a mensagem após a promisse ser realizada?)
-
-  Está passando no Req 1 utilizei o useNavigate para ser redirecionada para rota /search
+  Requisito 1 - Completado!
   */
   return (
     <div>
